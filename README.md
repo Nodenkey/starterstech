@@ -1,3 +1,7 @@
+Starterstech is a STEM education service for schools, organizations, communities and homes.
+
+Site is still being built but can be viewed via: http://starterstech.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
