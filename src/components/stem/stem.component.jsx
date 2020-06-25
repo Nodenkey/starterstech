@@ -26,13 +26,13 @@ const Stem = () => {
                 </SectionTextWrapper>
                 <VideoWrapper>
                     <VideoPlayer muted loop allowFullScreen frameBorder="0"
-                                 src="https://www.youtube.com/watch?v=b0IwQ60JgFc&list=RD8LR7KaP1mZs&index=3"/>
+                                 src="https://www.youtube.com/embed/NMcy0TexlxA?controls=1"/>
                 </VideoWrapper>
             </SectionWrapper>
             <SectionWrapper>
                 <VideoWrapper>
                     <VideoPlayer muted loop allowFullScreen frameBorder="0"
-                                 src="https://www.youtube.com/watch?v=b0IwQ60JgFc&list=RD8LR7KaP1mZs&index=3"/>
+                                 src="https://www.youtube.com/embed/HH2ox0hv6o8?controls=1"/>
                 </VideoWrapper>
                 <SectionTextWrapper>
                     <SectionHeader>Online Academy</SectionHeader>
@@ -55,7 +55,7 @@ const Stem = () => {
                 </SectionTextWrapper>
                 <VideoWrapper>
                     <VideoPlayer muted loop allowFullScreen frameBorder="0"
-                                 src="https://www.youtube.com/watch?v=b0IwQ60JgFc&list=RD8LR7KaP1mZs&index=3"/>
+                                 src="https://www.youtube.com/embed/XSsULnGvyHg?controls=1"/>
                 </VideoWrapper>
             </SectionWrapper>
         </StemWrapper>
