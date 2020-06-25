@@ -4,10 +4,14 @@ import {primaryBlue} from "../../utils/colors";
 export const AspectWrapper = styled.section`
   width: 100%;
   position: relative;
-  padding: 50px 10%;
+  padding: 50px 5%;
+  @media only screen and (min-width: 600px){
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 10%;
+  padding: 50px 10%;
+
+  }
 `;
 export const Clipper = styled.div`
   position: absolute;

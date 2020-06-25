@@ -29,7 +29,7 @@ const Stem = () => {
                                  src="https://www.youtube.com/embed/NMcy0TexlxA?controls=1"/>
                 </VideoWrapper>
             </SectionWrapper>
-            <SectionWrapper>
+            <SectionWrapper middle>
                 <VideoWrapper>
                     <VideoPlayer muted loop allowFullScreen frameBorder="0"
                                  src="https://www.youtube.com/embed/HH2ox0hv6o8?controls=1"/>

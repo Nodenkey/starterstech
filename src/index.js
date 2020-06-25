@@ -4,6 +4,8 @@ import {BrowserRouter} from "react-router-dom";
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 ReactDOM.render(
     <React.StrictMode>

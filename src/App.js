@@ -4,6 +4,7 @@ import './App.scss';
 import ScrollToTop from "./utils/scroll-to-top";
 import LoadingScreen from "./components/loading-screen/loading-screen";
 import NavBar from "./components/navbar/navbar.component";
+import Footer from "./components/footer/footer.component";
 
 
 const Home = lazy(() => import("./pages/home/home.component"));
@@ -20,7 +21,7 @@ function App() {
             {/*<Route exact path='/works' component={WorkDetails}/>*/}
             {/*<Route path='/works/:index' component={WorkDetails}/>*/}
           </Switch>
-          {/*<Footer/>*/}
+          <Footer/>
         </Suspense>
       </div>
   );

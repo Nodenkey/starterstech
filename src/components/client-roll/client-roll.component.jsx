@@ -11,7 +11,7 @@ const ClientRoll = () => {
         require("../../assets/images/gis.png"),
         require("../../assets/images/harvest.png"),
         require("../../assets/images/pumpkins.png"),
-        require("../../assets/images/Nouvel-logo-new-300x161.png"),
+        require("../../assets/images/nouvel.png"),
         require("../../assets/images/vine.png"),
     ];
 
@@ -20,6 +20,8 @@ const ClientRoll = () => {
         margin: 10,
         items: 4,
         dots: false,
+        nav: true,
+        autoplay: true,
         responsive:{
             0: {
                 items: 1.4,
@@ -37,7 +39,7 @@ const ClientRoll = () => {
     return (
             <OwlCarousel {...options} className="owl-theme" id="carousel-wrapper">
                 {images.map((image, index) => {
-                    return <LogoContainer><Logo key={index} src={image} alt="client logo"/></LogoContainer>
+                    return <LogoContainer key={index}><Logo src={image} alt="client logo"/></LogoContainer>
                 })}
             </OwlCarousel>
     );

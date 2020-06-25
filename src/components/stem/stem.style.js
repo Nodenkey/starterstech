@@ -12,11 +12,23 @@ export const StemHeader = styled.h1`
 export const SectionWrapper = styled.div`
   width: 100%;
   margin-bottom: 100px;
-  display: flex;
+  display: grid;
+  >:nth-child(2){
+  grid-row: ${props => props.middle ? "auto" : 1};
+  }
+  @media only screen and (min-width: 768px){
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 40px;
+  >:nth-child(2){
+  grid-row: auto;
+  }
+  }
 `;
 export const SectionTextWrapper = styled.div`
-  width: 50%;
-  padding: 40px;
+  width: 100%;
+  padding: 5%;
+  @media only screen and (min-width: 768px){
+  }
 `;
 export const SectionHeader = styled.h2`
   margin-bottom: 20px;
@@ -37,7 +49,6 @@ export const VideoWrapper = styled.div`
     padding-top: 75%;
   }
   @media only screen and (min-width: 768px){
-    width: 50%;
     padding-top: 40.25%;
   }
 `;

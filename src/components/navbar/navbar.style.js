@@ -21,8 +21,12 @@ export const NavBrand = styled.h4`
 `;
 
 export const MenuContainer =styled.div`
+  display: none;
+  align-items: center;
+  @media only screen and (min-width: 768px){
   display: flex;
   align-items: center;
+  }
 `;
 
 export const MenuItem = styled.h4`
